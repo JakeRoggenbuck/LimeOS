@@ -1,7 +1,7 @@
 # ~/.bashrc
 PS1='\[\033[01;31m\][\h\[\033[01;36m\] \W\[\033[01;31m\]]\$\[\033[00m\] '
 
-HISTFILE='/home/jake/.hist/bash_history'
+HISTFILE='${HOME}/.hist/bash_history'
 
 alias ls='ls --color=auto'
 alias grep='grep --colour=auto'
